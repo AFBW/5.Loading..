@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Nerko+One&family=Poppins:ital,wght@1,500&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nerko One', cursive, 'Roboto', sans-serif;
+    display: flex;
+    /*It made that the center go verical as a column /
+     If I do it row it make that the center go horizontal as a row */
+    flex-direction: column;
+    align-items: center;
+    /*justify-content doesnt make nothink because it need a height*/
+    justify-content: center;
+    height: 100vh;
+    /*It make to hide what could be behind*/
+    overflow: hidden;
+    margin: 0;
+
+}
