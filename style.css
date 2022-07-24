@@ -9,7 +9,7 @@ body {
     display: flex;
     /*It made that the center go verical as a column /
      If I do it row it make that the center go horizontal as a row */
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     /*justify-content doesnt make nothink because it need a height*/
     justify-content: center;
@@ -17,5 +17,23 @@ body {
     /*It make to hide what could be behind*/
     overflow: hidden;
     margin: 0;
+}
+
+.bg {
+    background-image: url('img/water-2208931.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 40px;
+    color: white;
 
 }
